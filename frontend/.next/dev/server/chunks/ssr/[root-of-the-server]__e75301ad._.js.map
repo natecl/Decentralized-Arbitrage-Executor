@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/n.chinlue/Decentralized-Arbitrage-Executor/frontend/pages/_app.js"],"sourcesContent":["// pages/_app.js\nimport { ChakraProvider } from \"@chakra-ui/react\";\nimport theme from \"../theme\";\n\nexport default function App({ Component, pageProps }) {\n  return (\n    <ChakraProvider theme={theme}>\n      <Component {...pageProps} />\n    </ChakraProvider>\n  );\n}\n"],"names":[],"mappings":"AAAA,gBAAgB;;;;;;AAChB;;;;;;;;;;;;;AAGe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACE,qKAAC,gKAAc;QAAC,OAAO;kBACrB,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAG9B"}}]
+}

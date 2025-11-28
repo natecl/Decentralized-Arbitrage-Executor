@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///Users/n.chinlue/Decentralized-Arbitrage-Executor/frontend/pages/api/history.js"],"sourcesContent":["// pages/api/history.js\nimport axios from \"axios\";\nexport default async function handler(req, res) {\n  try {\n    const r = await axios.get(`${process.env.BOT_SERVER_URL}/history`);\n    res.status(200).json(r.data);\n  } catch (err) {\n    res.status(500).json([]);\n  }\n}\n"],"names":[],"mappings":"AAAA,uBAAuB;;;;;AACvB;;;;;;AACe,eAAe,QAAQ,GAAG,EAAE,GAAG;IAC5C,IAAI;QACF,MAAM,IAAI,MAAM,qHAAK,CAAC,GAAG,CAAC,GAAG,QAAQ,GAAG,CAAC,cAAc,CAAC,QAAQ,CAAC;QACjE,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,EAAE,IAAI;IAC7B,EAAE,OAAO,KAAK;QACZ,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,EAAE;IACzB;AACF"}}]
+}

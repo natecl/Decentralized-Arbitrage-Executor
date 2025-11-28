@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "@chakra-ui/react": "^3.30.0",
+    "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "axios": "^1.13.2",
@@ -20,10 +23,10 @@
     "date-fns": "^4.1.0",
     "ethers": "^6.15.0",
     "express": "^5.1.0",
-    "framer-motion": "^12.23.24",
+    "framer-motion": "^10.18.0",
     "next": "^16.0.5",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "recharts": "^3.5.0",
     "wagmi": "^3.0.2"
   }

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///Users/n.chinlue/Decentralized-Arbitrage-Executor/frontend/pages/api/profits.js"],"sourcesContent":["// pages/api/profits.js\nimport axios from \"axios\";\n\nexport default async function handler(req, res) {\n  try {\n    const response = await axios.get(`${process.env.BOT_SERVER_URL}/profit`);\n    res.status(200).json(response.data);\n  } catch (err) {\n    res.status(500).json({ instant: 0, error: err.message });\n  }\n}\n"],"names":[],"mappings":"AAAA,uBAAuB;;;;;AACvB;;;;;;AAEe,eAAe,QAAQ,GAAG,EAAE,GAAG;IAC5C,IAAI;QACF,MAAM,WAAW,MAAM,qHAAK,CAAC,GAAG,CAAC,GAAG,QAAQ,GAAG,CAAC,cAAc,CAAC,OAAO,CAAC;QACvE,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,SAAS,IAAI;IACpC,EAAE,OAAO,KAAK;QACZ,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC;YAAE,SAAS;YAAG,OAAO,IAAI,OAAO;QAAC;IACxD;AACF"}}]
+}

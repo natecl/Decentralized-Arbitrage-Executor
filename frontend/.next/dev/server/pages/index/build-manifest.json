@@ -1,0 +1,32 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/node_modules_next_dist_compiled_caaa605a._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_6024eba3._.js",
+      "static/chunks/node_modules_react_e3593a73._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
+      "static/chunks/node_modules_react-dom_8a8085df._.js",
+      "static/chunks/node_modules_@chakra-ui_theme_dist_5fd653d7._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_57385078._.js",
+      "static/chunks/node_modules_recharts_es6_d045a828._.js",
+      "static/chunks/node_modules_ethers_lib_esm_389e57af._.js",
+      "static/chunks/node_modules_@noble_curves_esm_02b0ec14._.js",
+      "static/chunks/node_modules_axios_lib_2c8bf6cb._.js",
+      "static/chunks/node_modules_@chakra-ui_6c0d4f27._.js",
+      "static/chunks/node_modules_@emotion_350cda13._.js",
+      "static/chunks/node_modules_@reduxjs_toolkit_71a317ef._.js",
+      "static/chunks/node_modules_5c02be80._.js",
+      "static/chunks/[root-of-the-server]__0f3f60ef._.js",
+      "static/chunks/pages_index_2da965e7._.js",
+      "static/chunks/turbopack-pages_index_c542eb05._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///Users/n.chinlue/Decentralized-Arbitrage-Executor/frontend/pages/api/bot-status.js"],"sourcesContent":["// pages/api/bot-status.js\nimport axios from \"axios\";\nexport default async function handler(req, res) {\n  try {\n    const r = await axios.get(`${process.env.BOT_SERVER_URL}/status`);\n    res.status(200).json(r.data);\n  } catch (err) {\n    res.status(500).json({ running: false, error: err.message });\n  }\n}\n"],"names":[],"mappings":"AAAA,0BAA0B;;;;;AAC1B;;;;;;AACe,eAAe,QAAQ,GAAG,EAAE,GAAG;IAC5C,IAAI;QACF,MAAM,IAAI,MAAM,qHAAK,CAAC,GAAG,CAAC,GAAG,QAAQ,GAAG,CAAC,cAAc,CAAC,OAAO,CAAC;QAChE,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,EAAE,IAAI;IAC7B,EAAE,OAAO,KAAK;QACZ,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC;YAAE,SAAS;YAAO,OAAO,IAAI,OAAO;QAAC;IAC5D;AACF"}}]
+}

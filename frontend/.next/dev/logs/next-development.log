@@ -1,0 +1,80 @@
+[00:00:00.475] Server  LOG      ✓ Ready in 304ms
+[00:00:01.488] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.433] Browser ERROR   fetchAll error {}
+[00:00:02.685] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:02.797] Browser ERROR   fetchAll error {}
+[00:00:04.025] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:04.132] Browser ERROR   fetchAll error {}
+[00:00:05.502] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:05.617] Browser ERROR   fetchAll error {}
+[00:00:08.503] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:08.609] Browser ERROR   fetchAll error {}
+[00:00:12.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:13.417] Browser ERROR   fetchAll error {}
+[00:00:15.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:16.422] Browser ERROR   fetchAll error {}
+[00:00:18.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:19.422] Browser ERROR   fetchAll error {}
+[00:00:21.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:22.419] Browser ERROR   fetchAll error {}
+[00:00:24.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:25.420] Browser ERROR   fetchAll error {}
+[00:00:27.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:28.421] Browser ERROR   fetchAll error {}
+[00:00:30.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:31.424] Browser ERROR   fetchAll error {}
+[00:00:33.424] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:34.426] Browser ERROR   fetchAll error {}
+[00:00:36.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:37.422] Browser ERROR   fetchAll error {}
+[00:00:39.423] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:40.425] Browser ERROR   fetchAll error {}
+[00:00:42.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:43.422] Browser ERROR   fetchAll error {}
+[00:00:45.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:46.421] Browser ERROR   fetchAll error {}
+[00:00:48.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:49.423] Browser ERROR   fetchAll error {}
+[00:00:51.423] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:52.423] Browser ERROR   fetchAll error {}
+[00:00:54.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:55.420] Browser ERROR   fetchAll error {}
+[00:00:57.421] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:00:58.423] Browser ERROR   fetchAll error {}
+[00:01:00.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:01:01.423] Browser ERROR   fetchAll error {}
+[00:01:03.422] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:01:04.423] Browser ERROR   fetchAll error {}
+[00:01:06.423] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:01:07.421] Browser ERROR   fetchAll error {}
+[00:01:57.443] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:01:58.420] Browser ERROR   fetchAll error {}
+[00:02:32.541] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:32.652] Browser ERROR   fetchAll error {}
+[00:02:35.499] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:35.604] Browser ERROR   fetchAll error {}
+[00:02:39.426] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:40.417] Browser ERROR   fetchAll error {}
+[00:02:42.423] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:43.419] Browser ERROR   fetchAll error {}
+[00:02:45.423] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:46.421] Browser ERROR   fetchAll error {}
+[00:02:48.432] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:49.419] Browser ERROR   fetchAll error {}
+[00:02:51.424] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:52.421] Browser ERROR   fetchAll error {}
+[00:02:54.431] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:55.419] Browser ERROR   fetchAll error {}
+[00:02:57.423] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:02:58.423] Browser ERROR   fetchAll error {}
+[00:03:00.420] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
+[00:03:01.423] Browser ERROR   fetchAll error {}
+[00:03:03.433] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'JsonRpcProvider')
