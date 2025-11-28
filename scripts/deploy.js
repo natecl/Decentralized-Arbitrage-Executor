@@ -2,22 +2,21 @@ require('dotenv').config({ path: '.env.clean' });
 const hre = require("hardhat");
 
 async function main() {
-    const RouterAddress = process.env.UNISWAP_ROUTER;
-    console.log("Router address from .env.clean:", RouterAddress);
+    const v2 = process.env.UNISWAP_V2;
+    const v3 = process.env.UNISWAP_V3;
 
-    if (!RouterAddress || !RouterAddress.startsWith('0x')) {
-        throw new Error("Router address is invalid or not loaded correctly!");
-    }
+    console.log("Uniswap V2:", v2);
+    console.log("Uniswap V3:", v3);
 
-    const ArbitrageExecutor = await hre.ethers.getContractFactory("ArbitrageExecutor");
-    const contract = await ArbitrageExecutor.deploy(RouterAddress);
+    if (!v2.startsWith('0x') || !v3.startsWith('0x')) throw new Error("Invalid router addresses");
 
-    // In ethers v6, contract is already deployed after deploy(), no need for .deployed()
-    console.log("ArbitrageExecutor deployed at:", contract.target); 
-    // contract.target holds the deployed address in ethers v6
+    const Factory = await hre.ethers.getContractFactory("ArbitrageExecutor");
+    const contract = await Factory.deploy(v2, v3);
+
+    console.log("ArbitrageExecutor deployed at:", contract.target);
 }
 
-main().catch((error) => {
-    console.error(error);
+main().catch(err => {
+    console.error(err);
     process.exit(1);
 });
